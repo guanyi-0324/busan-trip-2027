@@ -1,0 +1,940 @@
+[
+  {
+    "id": "gwang",
+    "nameZh": "光安木",
+    "nameKo": "광안목 해운대점",
+    "category": "熟成豬肉",
+    "area": "海雲台",
+    "description": "海雲台用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "熟成五花肉",
+      "熟成豬頸肉",
+      "店員代烤"
+    ],
+    "price": {
+      "amount": "₩95,000～125,000",
+      "currency": "KRW",
+      "unit": "四人",
+      "type": "estimate",
+      "note": "預算估算，非 2027 年保證售價"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "matchan",
+    "nameZh": "味讚王鹽烤肉",
+    "nameKo": "맛찬들왕소금구이",
+    "category": "熟成豬肉",
+    "area": "海雲台",
+    "description": "海雲台用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "厚切熟成豬肉",
+      "熟成五花肉",
+      "鹽烤料理"
+    ],
+    "price": {
+      "amount": "₩100,000～140,000",
+      "currency": "KRW",
+      "unit": "四人",
+      "type": "estimate",
+      "note": "預算估算，非 2027 年保證售價"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "soup-flex",
+    "nameZh": "海雲台豬肉湯飯",
+    "nameKo": null,
+    "category": "豬肉湯飯",
+    "area": "海雲台",
+    "description": "海雲台用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "豬肉湯飯"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": [
+      "非指定店家；當天依營業狀況選擇。"
+    ]
+  },
+  {
+    "id": "crab1",
+    "nameZh": "機張名品雪蟹",
+    "nameKo": "기장명품대게",
+    "category": "螃蟹",
+    "area": "機張",
+    "description": "機張用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "螃蟹"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "依重量、季節與行情變動，現場詢價"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": "https://www.instagram.com/explore/tags/%EA%B8%B0%EC%9E%A5%EB%AA%85%ED%92%88%EB%8C%80%EA%B2%8C/",
+    "instagramType": "hashtag",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "crab2",
+    "nameZh": "青海王雪蟹",
+    "nameKo": "청해왕대게",
+    "category": "螃蟹",
+    "area": "機張",
+    "description": "機張用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "螃蟹"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "依重量、季節與行情變動，現場詢價"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": "https://www.instagram.com/explore/tags/%EC%B2%AD%ED%95%B4%EC%99%95%EB%8C%80%EA%B2%8C/",
+    "instagramType": "hashtag",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "crab3",
+    "nameZh": "機張小伙雪蟹",
+    "nameKo": "기장총각대게",
+    "category": "螃蟹",
+    "area": "機張",
+    "description": "機張用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "螃蟹"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "依重量、季節與行情變動，現場詢價"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": "https://www.instagram.com/explore/tags/%EA%B8%B0%EC%9E%A5%EC%B4%9D%EA%B0%81%EB%8C%80%EA%B2%8C/",
+    "instagramType": "hashtag",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "crab4",
+    "nameZh": "機張雪蟹之家",
+    "nameKo": "기장대게하우스",
+    "category": "螃蟹",
+    "area": "機張",
+    "description": "機張用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "螃蟹"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "依重量、季節與行情變動，現場詢價"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": "https://www.instagram.com/explore/tags/%EA%B8%B0%EC%9E%A5%EB%8C%80%EA%B2%8C%ED%95%98%EC%9A%B0%EC%8A%A4/",
+    "instagramType": "hashtag",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "chicken",
+    "nameZh": "海雲台一隻雞",
+    "nameKo": "해운대닭한마리 본점",
+    "category": "一隻雞火鍋",
+    "area": "海雲台 Marine City",
+    "description": "海雲台 Marine City用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "一隻雞火鍋",
+      "韓式刀削麵",
+      "雞湯粥"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "stall183",
+    "nameZh": "183 號：총각상회",
+    "nameKo": "총각상회",
+    "category": "海鮮攤販",
+    "area": "札嘎其",
+    "description": "札嘎其用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "活魚生魚片",
+      "貝類",
+      "鮑魚",
+      "辣魚湯"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": "https://www.instagram.com/chong_gak_jagalchimarket/",
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": [
+      "參考攤位，現場核實；一樓選海鮮，合作二樓餐廳料理。"
+    ]
+  },
+  {
+    "id": "stall218",
+    "nameZh": "218 號：신경북상회",
+    "nameKo": "신경북상회",
+    "category": "海鮮攤販",
+    "area": "札嘎其",
+    "description": "札嘎其用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "活魚生魚片",
+      "貝類",
+      "鮑魚",
+      "辣魚湯"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": "https://www.instagram.com/singyeongbugsanghoe/",
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": [
+      "參考攤位，現場核實；一樓選海鮮，合作二樓餐廳料理。"
+    ]
+  },
+  {
+    "id": "stall376",
+    "nameZh": "376 號：영도상회 남포점",
+    "nameKo": "영도상회 남포점",
+    "category": "海鮮攤販",
+    "area": "札嘎其",
+    "description": "札嘎其用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "活魚生魚片",
+      "貝類",
+      "鮑魚",
+      "辣魚湯"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": [
+      "參考攤位，現場核實；一樓選海鮮，合作二樓餐廳料理。"
+    ]
+  },
+  {
+    "id": "stall154",
+    "nameZh": "154～155 號：탐라상회",
+    "nameKo": "탐라상회",
+    "category": "海鮮攤販",
+    "area": "札嘎其",
+    "description": "札嘎其用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "活魚生魚片",
+      "貝類",
+      "鮑魚",
+      "辣魚湯"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": [
+      "參考攤位，現場核實；一樓選海鮮，合作二樓餐廳料理。"
+    ]
+  },
+  {
+    "id": "stall373",
+    "nameZh": "373 號：동양상회",
+    "nameKo": "동양상회",
+    "category": "海鮮攤販",
+    "area": "札嘎其",
+    "description": "札嘎其用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "活魚生魚片",
+      "貝類",
+      "鮑魚",
+      "辣魚湯"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": [
+      "參考攤位，現場核實；一樓選海鮮，合作二樓餐廳料理。"
+    ]
+  },
+  {
+    "id": "stall1",
+    "nameZh": "1 號：대양상회",
+    "nameKo": "대양상회",
+    "category": "海鮮攤販",
+    "area": "札嘎其",
+    "description": "札嘎其用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "活魚生魚片",
+      "貝類",
+      "鮑魚",
+      "辣魚湯"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": [
+      "參考攤位，現場核實；一樓選海鮮，合作二樓餐廳料理。"
+    ]
+  },
+  {
+    "id": "baek",
+    "nameZh": "白松排骨",
+    "nameKo": "백송갈비",
+    "category": "韓式烤肉",
+    "area": "松島",
+    "description": "松島用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "烤肉"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "uyeon",
+    "nameZh": "偶然地",
+    "nameKo": "우연지",
+    "category": "高級韓牛",
+    "area": "松島",
+    "description": "松島用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "韓牛"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "hae",
+    "nameZh": "海日出馬鈴薯排骨湯",
+    "nameKo": "해오름감자탕",
+    "category": "馬鈴薯排骨湯",
+    "area": "松島",
+    "description": "松島用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "馬鈴薯排骨湯"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "songam",
+    "nameZh": "松岩豬肉湯飯",
+    "nameKo": "송암돼지국밥",
+    "category": "豬肉湯飯",
+    "area": "松島",
+    "description": "松島用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "豬肉湯飯"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "gaemi",
+    "nameZh": "螞蟻家",
+    "nameKo": "개미집",
+    "category": "章魚牛腸蝦鍋",
+    "area": "西面",
+    "description": "西面用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "章魚牛腸蝦鍋（낙곱새）"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "sinchon",
+    "nameZh": "新村韓式燉排骨",
+    "nameKo": "신촌양푼이갈비찜",
+    "category": "燉排骨",
+    "area": "西面",
+    "description": "西面用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "韓式燉排骨"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "songjeong",
+    "nameZh": "松亭三代湯飯",
+    "nameKo": "송정3대국밥",
+    "category": "湯飯",
+    "area": "西面",
+    "description": "西面用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "豬肉湯飯"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "milmyeon",
+    "nameZh": "西面小麥冷麵",
+    "nameKo": "서면밀면",
+    "category": "冷麵",
+    "area": "西面",
+    "description": "西面用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "小麥冷麵"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "haute",
+    "nameZh": "Cafe Haute",
+    "nameKo": "카페오뜨",
+    "category": "海景咖啡廳",
+    "area": "廣安里",
+    "description": "廣安里用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "飲品待確認"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "cup",
+    "nameZh": "Cup & Cup",
+    "nameKo": "컵앤컵",
+    "category": "海景咖啡廳",
+    "area": "廣安里",
+    "description": "廣安里用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "飲品待確認"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "working",
+    "nameZh": "Working Holiday",
+    "nameKo": "워킹홀리데이 광안",
+    "category": "海景咖啡廳",
+    "area": "廣安里",
+    "description": "廣安里用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "飲品待確認"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "1988",
+    "nameZh": "1988 釜山韓牛家",
+    "nameKo": null,
+    "category": "韓牛",
+    "area": "廣安里",
+    "description": "廣安里用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "韓牛"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "better",
+    "nameZh": "更好的韓牛",
+    "nameKo": "더좋은한우",
+    "category": "韓牛",
+    "area": "廣安里",
+    "description": "廣安里用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "韓牛"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "seok",
+    "nameZh": "石花宴",
+    "nameKo": "석화연",
+    "category": "熟成豬肉",
+    "area": "廣安里",
+    "description": "廣安里用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "熟成豬肉"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "go",
+    "nameZh": "高下順",
+    "nameKo": "고하순",
+    "category": "熟成豬肉",
+    "area": "廣安里",
+    "description": "廣安里用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "熟成豬肉"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  },
+  {
+    "id": "geodae",
+    "nameZh": "巨代牛肉湯",
+    "nameKo": "거대곰탕",
+    "category": "牛肉湯",
+    "area": "海雲台",
+    "description": "海雲台用餐候選；營業狀況與分店待確認。",
+    "recommendedDishes": [
+      "牛肉湯"
+    ],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    },
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": []
+  }
+]

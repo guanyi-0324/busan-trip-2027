@@ -1,0 +1,144 @@
+{
+  "d1-dinner": [
+    {
+      "restaurantId": "gwang",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "matchan",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "soup-flex",
+      "role": "emergency"
+    }
+  ],
+  "d2-lunch": [
+    {
+      "restaurantId": "crab1",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "crab2",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "crab3",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "crab4",
+      "role": "equal"
+    }
+  ],
+  "d2-dinner": [
+    {
+      "restaurantId": "chicken",
+      "role": "preferred"
+    }
+  ],
+  "d3-lunch": [
+    {
+      "restaurantId": "stall183",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "stall218",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "stall376",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "stall154",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "stall373",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "stall1",
+      "role": "equal"
+    }
+  ],
+  "d3-dinner": [
+    {
+      "restaurantId": "baek",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "uyeon",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "hae",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "songam",
+      "role": "equal"
+    }
+  ],
+  "d4-lunch": [
+    {
+      "restaurantId": "gaemi",
+      "role": "preferred"
+    },
+    {
+      "restaurantId": "sinchon",
+      "role": "alternative"
+    },
+    {
+      "restaurantId": "songjeong",
+      "role": "alternative"
+    },
+    {
+      "restaurantId": "milmyeon",
+      "role": "alternative"
+    }
+  ],
+  "d4-cafe": [
+    {
+      "restaurantId": "haute",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "cup",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "working",
+      "role": "equal"
+    }
+  ],
+  "d4-dinner": [
+    {
+      "restaurantId": "1988",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "better",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "seok",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "go",
+      "role": "equal"
+    }
+  ],
+  "d5-breakfast": [
+    {
+      "restaurantId": "geodae",
+      "role": "equal"
+    },
+    {
+      "restaurantId": "soup-flex",
+      "role": "equal"
+    }
+  ]
+}

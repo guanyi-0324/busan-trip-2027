@@ -1,0 +1,67 @@
+{
+  "title": "2027 釜山五天四夜自由行 🇰🇷",
+  "subtitle": "2027/03/10（三）～03/14（日）｜4 位大人｜Busan Travel Journal",
+  "startDate": "2027-03-10",
+  "endDate": "2027-03-14",
+  "travelers": 4,
+  "timezone": "Asia/Seoul",
+  "coverImage": null,
+  "flights": [
+    {
+      "code": "BX572",
+      "date": "2027/03/10（三）",
+      "from": "桃園 TPE",
+      "to": "釜山 PUS",
+      "departure": "13:25 台灣時間（UTC+8）",
+      "arrival": "約 17:00 韓國時間（UTC+9）"
+    },
+    {
+      "code": "BX575",
+      "date": "2027/03/14（日）",
+      "from": "釜山 PUS",
+      "to": "桃園 TPE",
+      "departure": "15:00 韓國時間（UTC+9）",
+      "arrival": "待確認"
+    }
+  ],
+  "airline": "釜山航空 Air Busan",
+  "flightNote": "旅客提供的暫定資料；出發前確認航班。",
+  "lodging": {
+    "name": "海雲台 Airbnb",
+    "status": "預計住宿・尚未確認訂房",
+    "url": "https://www.airbnb.com.tw/rooms/1763027705885706552",
+    "address": null,
+    "note": "地址尚未核實，不提供住宿導航。"
+  },
+  "reminders": [
+    "韓國使用韓元 KRW。",
+    "韓國時間比台灣快一小時，行程預設為 KST（UTC+9）。",
+    "建議攜帶行動電源。",
+    "三月可能偏冷，準備保暖衣物。",
+    "重要證件與訂房資訊不要公開在網站上。",
+    "收藏儲存在個人裝置，不會自動同步給旅伴。"
+  ],
+  "airportTransport": [
+    {
+      "name": "計程車",
+      "time": "約 60～100 分鐘",
+      "note": "一般車不一定能放下四個大型行李箱；可能需分乘兩台。"
+    },
+    {
+      "name": "大型計程車",
+      "time": "約 60～100 分鐘",
+      "note": "事先確認四人及四個大型行李箱的容量並預約。"
+    },
+    {
+      "name": "機場巴士",
+      "time": "約 80～120 分鐘",
+      "note": "路線、班次、站點、行李限制待確認。"
+    },
+    {
+      "name": "地鐵＋輕軌",
+      "time": "約 90～120 分鐘",
+      "note": "需轉車；預留步行與搬運行李時間。"
+    }
+  ],
+  "transportNote": "以上均為行程規劃預估，非即時交通；車資待確認，塞車可能增加時間。"
+}

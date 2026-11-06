@@ -69,3 +69,9 @@ Vite base 已設為 `/busan-trip-2027/`，資料、JS、CSS、favicon 都支援�
 ## 驗收與限制
 
 自動測試檢查行程數量、3/13 順序、候選狀態、引用、地圖 URL 與韓國跨日時區。網址格式檢查不等於店家、IG 或預約頁內容查核。所有營業、價格、票價、地址、航班與 2027 場次均須依 DATA_REVIEW.md 再核實。
+
+## V4.0 本機改版
+
+新增 #overview、五色 Leaflet 地圖與裝置端清單，全部使用 public/data 的共用資料。完整驗收、檔案清單及未核實資料見 QA.md 與 DATA_REVIEW.md。本次尚未推送或部署，須使用者確認。
+
+請直接維護 JSON；scripts/generate-data.mjs 是早期 V3 資料產生器，重新執行會覆蓋後續手動更新，不適用 V4 日常維護。tests/fixtures 是僅供回歸驗證的 V3.6 快照，不會載入網站。

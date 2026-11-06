@@ -936,5 +936,39 @@
     "verifiedAt": null,
     "verificationStatus": "unverified",
     "notes": []
+  },
+  {
+    "area": "西面",
+    "category": "牛小腸",
+    "description": "Day 4 西面午餐第 4 個備選；韓文名稱、分店與地址尚未核實。",
+    "recommendedDurationMinutes": null,
+    "bookingRequired": false,
+    "bookingUrl": null,
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "googleMapsUrl": null,
+    "naverMapsUrl": null,
+    "instagramUrl": null,
+    "instagramType": "unverified",
+    "image": null,
+    "hours": null,
+    "ticketPrice": null,
+    "verifiedAt": null,
+    "verificationStatus": "unverified",
+    "notes": [
+      "保留螞蟻家首選及原有三個備選；未核實座標前不放精確標記。"
+    ],
+    "id": "youth-intestines",
+    "nameZh": "青春牛小腸",
+    "nameKo": null,
+    "recommendedDishes": [],
+    "price": {
+      "amount": null,
+      "currency": "KRW",
+      "unit": "待確認",
+      "type": "unverified",
+      "note": "待確認"
+    }
   }
 ]

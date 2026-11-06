@@ -1,3 +1,20 @@
+# V4.0 資料查核補充（2026-11-06）
+
+本次沒有修改已確定行程時段及餐廳角色。下方舊版紀錄保留供參考；「全部座標為空」等敘述屬 V3.6 歷史狀態。
+
+- 代表座標：目前 12 筆，皆在 places.json 的 coordinateSource 記錄來源。這不是入口、出口或營業狀況認證；verificationStatus 不會因為補座標就改為全項核實。
+- 金海機場、機場站、沙上站、海雲台站、海雲台海灘、甘川文化村、廣安里、西面：來源頁列示的代表座標。
+- Luge、札嘎其市場、機張市場、尾浦：OpenStreetMap 衍生來源記錄。機張使用 marketplace（W1065131664），不採同名 supermarket。
+- Money Box：[品牌分店頁](https://moneybox-exchange.com/ja/locations/haeundae/)支持海雲台海邊路 287 號；樓層與 107 號依使用者參考資料，出發前再確認。不同來源營業時段不一致，不宣稱 2027 已確認。
+- Money Planet：[品牌網站](https://www.moneyplanet.kr/)未提供本次足以核實龜南路機台、台幣支援的資料。座標維持 null。
+- 青春牛小腸：中文名稱由使用者指定，韓文、分店、地址、座標維持 null。
+- 地鐵路徑：[機場官方交通](https://www.airport.co.kr/gimhaeeng/cms/frCon/index.do?CONTENTS_NO=3&MENU_ID=110)確認沙上與 2 號線轉乘。
+- 時間／費用參考：[CLUBD OASIS 交通指南](https://clubdoasis.com/guide/en/location)列 80–90 分鐘、約 ₩1,800，含末段步行。頁面明示來源估計；四人 ₩7,200 為乘以四的參考，不作精確票價。
+- [釜山地鐵票價](https://work.humetro.busan.kr/homepage/cht/page/subLocation.do?menu_no=100901040101)為地鐵段規則，不能單憑此表斷言輕軌轉乘的全程總價。出發前需查 2027 實際計費。
+- 住宿、機台、餐廳、票價、營業時間及無人機秀仍需出發前確認。
+
+---
+
 # 資料待確認清單
 
 本專案依使用者提供的 V3.5 建立。未進行第三方營業、價格、地址或 2027 時刻的實地／官方查核，verifiedAt 保持 null。網站的「已定案」只指 Day 4 行程順序，不代表已訂票。

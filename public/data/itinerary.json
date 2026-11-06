@@ -68,6 +68,42 @@
           "alternative": "機場巴士／地鐵＋輕軌",
           "transfer": "視方式而定",
           "note": "規劃預估，非即時交通；住宿地址未核實。"
+        },
+        "routePlaceIds": [
+          "airport-station",
+          "sasang-station",
+          "haeundae-station"
+        ],
+        "transitGuide": {
+          "title": "金海機場 → 海雲台站：輕軌＋地鐵教學",
+          "steps": [
+            "金海國際機場（김해국제공항）領取行李後，依 Light Rail 指示步行前往機場站。",
+            "機場站（공항역）：搭釜山－金海輕軌，往沙上（사상）方向。",
+            "沙上站（사상역）下車，依指示轉乘釜山地鐵 2 號線。",
+            "搭往萇山（장산）方向列車，在海雲台站（해운대역）下車；主要轉乘一次。",
+            "住宿未定：教學先到海雲台站，之後步行或短程計程車；出口、距離、時間、電梯皆待 Airbnb 地址確認。"
+          ],
+          "duration": "參考約 80～90 分鐘（CLUBD OASIS 交通指南含末段步行；實際到海雲台站時間及候車需重查）。原 18:00～19:15 為既有計程車時段，地鐵可能超出，當日須評估。",
+          "fare": "參考資料列約 ₩1,800／成人，四人約 ₩7,200；這是來源估計，輕軌轉乘計費仍待官方確認，不作 2027 年確定票價。",
+          "notes": [
+            "每人準備一張可用交通卡並確認餘額，進出站與轉乘依讀卡指示操作。",
+            "行李避免阻擋車門，優先依站內指示找電梯；不要預設住宿附近出口。",
+            "一般計程車可能無法容納四人與全部大行李，可考慮大型車或分乘兩台，車資依車型、交通與當日狀況。"
+          ],
+          "sources": [
+            {
+              "title": "機場官方交通說明",
+              "url": "https://www.airport.co.kr/gimhaeeng/cms/frCon/index.do?CONTENTS_NO=3&MENU_ID=110"
+            },
+            {
+              "title": "CLUBD OASIS 交通估計（非 2027 報價）",
+              "url": "https://clubdoasis.com/guide/en/location"
+            },
+            {
+              "title": "釜山地鐵官方票價（地鐵段）",
+              "url": "https://work.humetro.busan.kr/homepage/cht/page/subLocation.do?menu_no=100901040101"
+            }
+          ]
         }
       },
       {
@@ -81,6 +117,26 @@
         "restaurantGroupId": null,
         "notes": [],
         "timeStatus": "planned",
+        "timezone": "Asia/Seoul",
+        "after": false
+      },
+      {
+        "id": "day1-exchange",
+        "timeLabel": "入住後／晚餐前後彈性",
+        "startTime": null,
+        "endTime": null,
+        "title": "海雲台換錢（兩個候選）",
+        "type": "exchange",
+        "placeId": null,
+        "restaurantGroupId": null,
+        "candidatePlaceIds": [
+          "money-box",
+          "money-planet"
+        ],
+        "notes": [
+          "不安排機場換錢，不改動 19:45～21:00 晚餐；實際順序視櫃檯與機台服務狀況決定。"
+        ],
+        "timeStatus": "flexible",
         "timezone": "Asia/Seoul",
         "after": false
       },

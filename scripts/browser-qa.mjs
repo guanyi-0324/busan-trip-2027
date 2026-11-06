@@ -1,0 +1,62 @@
+import {createRequire} from 'node:module';
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+const require=createRequire(import.meta.url);
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
+const browser=await chromium.launch({channel:'msedge',headless:true});
+const page=await browser.newPage({viewport:{width:390,height:844}});
+const errors=[];page.on('pageerror',e=>errors.push(e.stack));
+await page.goto('http://127.0.0.1:5173/busan-trip-2027/#overview');
+await page.locator('#overview-day-5').waitFor();
+assert.equal(await page.locator('.journal-day').count(),5);
+assert.equal(await page.locator('.activity').count(),46);
+await page.locator('#overview-day-1 .activity-expand>summary').nth(0).click();
+await page.locator('#overview-day-1 .activity-expand>summary').nth(1).click();
+assert.equal(await page.locator('#overview-day-1 .activity-expand[open]').count(),2);
+await page.locator('[data-scroll="shopping"]').click();
+await page.locator('[data-list-add="shopping"] input').fill('測試海苔');
+await page.locator('[data-list-add="shopping"] button').click();
+await page.locator('#shopping [data-edit]').click();
+await page.locator('[data-edit-form] input').fill('測試面膜');
+await page.locator('[data-edit-form] select').selectOption('美妝保養');
+await page.locator('[data-edit-form] button').first().click();
+await page.locator('#shopping [data-check]').check();
+await page.locator('#preparation [data-check]').first().check();
+await page.reload();await page.locator('#overview-day-5').waitFor();
+assert.equal(await page.locator('#shopping [data-check]').isChecked(),true);
+assert.equal(await page.locator('#preparation [data-check]').first().isChecked(),true);
+assert.ok((await page.locator('#shopping').innerText()).includes('測試面膜'));
+await page.locator('#shopping [data-delete]').click();
+assert.equal(await page.locator('#shopping [data-check]').count(),0);
+await page.locator('[data-scroll="overview-day-4"]').click();
+await page.waitForTimeout(1500);
+assert.ok(await page.locator('#overview-day-4').evaluate(e=>e.getBoundingClientRect().top>=130));
+for(const width of [320,390,768,1440]){await page.setViewportSize({width,height:900});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'overview overflow '+width);}
+await page.setViewportSize({width:390,height:844});
+await page.locator('.bottom-nav [data-view="map"]').click();
+await page.locator('.leaflet-marker-icon').first().waitFor();
+assert.equal(await page.locator('[data-map-day="0"]').getAttribute('aria-pressed'),'true');
+for(let day=1;day<=5;day++){await page.locator('[data-map-day="'+day+'"]').click();assert.ok(await page.locator('.leaflet-marker-icon').count()>0);}
+await page.locator('[data-map-day="1"]').click();
+await page.locator('.leaflet-marker-icon').first().click();
+assert.ok((await page.locator('.leaflet-popup').innerText()).includes('김해국제공항'));
+await page.context().grantPermissions(['clipboard-read','clipboard-write']);
+await page.locator('.leaflet-popup [data-copy-ko]').first().click();
+assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),'김해국제공항');
+await page.locator('.leaflet-popup [data-jump-day]').first().click();
+assert.ok(await page.locator('#daily').count());
+await page.locator('.bottom-nav [data-view="map"]').click();
+await page.locator('[data-map-day="2"]').click();
+const regions=await page.locator('.leaflet-overlay-pane path[fill-opacity="0.1"]').count();assert.ok(regions>0);await page.locator('#map-areas').uncheck();assert.equal(await page.locator('.leaflet-overlay-pane path[fill-opacity="0.1"]').count(),0);await page.locator('#map-areas').check();assert.equal(await page.locator('.leaflet-overlay-pane path[fill-opacity="0.1"]').count(),regions);
+await page.locator('#theme').click();
+fs.mkdirSync('artifacts',{recursive:true});await page.screenshot({path:'artifacts/map-mobile-dark.png',fullPage:false});
+await page.locator('.bottom-nav [data-view="overview"]').click();
+await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'artifacts/overview-mobile-dark.png',fullPage:false});
+await page.locator('#theme').click();await page.setViewportSize({width:1440,height:1000});await page.screenshot({path:'artifacts/overview-desktop.png',fullPage:false});
+for(const route of ['home','daily','food','map','info','overview']){await page.goto('http://127.0.0.1:5173/busan-trip-2027/#'+route);await page.locator('.bottom-nav').waitFor();assert.equal(await page.locator('main h1,main h2').count()>0,true);}
+await page.goto('http://127.0.0.1:5173/busan-trip-2027/#food');await page.locator('[data-save]').first().click();const savedId=await page.locator('[data-save]').first().getAttribute('data-save');await page.reload();await page.locator('[data-save="'+savedId+'"]').waitFor();assert.equal(await page.locator('[data-save="'+savedId+'"]').getAttribute('aria-pressed'),'true');await page.locator('#saved-only').click();assert.equal(await page.locator('.catalog .restaurant').count(),1);
+await page.evaluate(()=>Object.defineProperty(navigator,'share',{configurable:true,value:async payload=>{window.sharedPayload=payload;}}));await page.locator('#share').click();assert.equal(await page.evaluate(()=>window.sharedPayload.url),page.url());await page.evaluate(()=>Object.defineProperty(navigator,'share',{configurable:true,value:undefined}));await page.locator('#share').click();await page.waitForFunction(()=>document.querySelector('#toast').textContent.includes('已複製網址'));assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),page.url());
+const denied=await browser.newPage({viewport:{width:390,height:844}});await denied.addInitScript(()=>{Storage.prototype.setItem=()=>{throw new Error('disabled');};});await denied.goto('http://127.0.0.1:5173/busan-trip-2027/#overview');await denied.locator('[data-list-add="shopping"] input').fill('無儲存模式');await denied.locator('[data-list-add="shopping"] button').click();assert.ok((await denied.locator('#toast').innerText()).includes('無法儲存'));await denied.close();
+assert.deepEqual(errors,[]);console.log('Browser QA passed: overview, multiple expansions, scroll, shopping CRUD/persistence, preparation, five map filters, bilingual popup, clipboard, day navigation, layers, dark mode, responsive widths and hash refresh.');await browser.close();
+
+

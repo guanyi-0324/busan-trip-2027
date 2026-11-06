@@ -41,7 +41,7 @@ npm run preview
 
 ## GitHub Pages 發布
 
-本機尚未連接 GitHub 帳戶，沒有建立遠端 repository 或上線。
+已建立儲存庫：https://github.com/guanyi-0324/busan-trip-2027 。Pages 使用 GitHub Actions 自動部署，網站網址：https://guanyi-0324.github.io/busan-trip-2027/ 。下列建立步驟供其他帳戶重新部署時參考，此專案不需重建。
 
 1. 登入 GitHub，建立名稱為 `busan-trip-2027` 的空白 repository。不要加入私人證件或住宿訂單。
 2. 在專案目錄執行（替換 YOUR_USERNAME）：
